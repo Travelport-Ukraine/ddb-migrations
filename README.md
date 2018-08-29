@@ -83,3 +83,10 @@ module.exports = {
 };
 
 ```
+
+## Future plans
+
+1. Make atomic operations to avoid race conditions in parallel migrations.
+
+2. Add possibility to store migrations in other sources.
+
