@@ -3,3 +3,6 @@ node_js:
  - "8"
 script:
   - npm test
+env:
+  - AWS_ACCESS_KEY_ID=test
+  - AWS_SECRET_ACCESS_KEY=test
