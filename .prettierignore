@@ -1,3 +1,6 @@
 package.json
 package-lock.json
-*.yaml
+tsconfig.json
+.travis.yml
+README.md
+CONTRIBUTING.md
