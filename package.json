@@ -1,14 +1,14 @@
 {
   "name": "ddb-migrations",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "DynamoDB (and not only) migration manager",
   "bin": {
-    "ddb-migrator": "./build/cli.js"
+    "ddb-migrations": "./build/cli.js"
   },
   "main": "./build/index.js",
   "scripts": {
     "precommit": "pretty-quick --staged",
-    "build": "tsc",
+    "build": "tsc && cp -R src/core/templates build/core",
     "prepublish": "npm run build",
     "pretty": "prettier --write src/**/*.ts tests/**/*.ts",
     "test": "mocha -r ts-node/register --recursive tests/**/*.*"

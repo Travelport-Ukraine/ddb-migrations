@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import fs from 'fs';
+import path from 'path';
 import yargs from './core/yargs';
 
 interface CliPackage {
@@ -7,7 +8,7 @@ interface CliPackage {
 }
 
 const cliPackage = JSON.parse(
-  fs.readFileSync('../package.json').toString(),
+  fs.readFileSync(path.join(__dirname, '../package.json')).toString(),
 ) as CliPackage;
 
 import * as generate from './commands/generate';
