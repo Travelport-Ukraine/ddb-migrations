@@ -15,7 +15,11 @@ describe('MigrationRegister tests', function() {
   before(async () => {
     await ddbLocal.launch(PORT);
     mr = new MigrationRegister({
-      aws: { region: 'eu-west-1' },
+      aws: {
+        accessKeyId: 'test',
+        secretAccessKey: 'test',
+        region: 'eu-west-1',
+      },
       ddb: { endpoint: `http://localhost:${PORT}` },
     });
   });
