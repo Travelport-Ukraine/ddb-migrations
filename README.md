@@ -14,7 +14,7 @@ After each successfully applied migration `ddb-migration` store last state do Dy
 
 ## Installation
 
-Run `npm i -S ddb-migration` or to install globally `npm i -g ddb-migration`.
+Run `npm i -S ddb-migrations` or to install globally `npm i -g ddb-migrations`.
 
 ## CLI
 
