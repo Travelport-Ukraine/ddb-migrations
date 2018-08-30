@@ -1,5 +1,7 @@
 # AWS DDB Migration :outbox_tray: :inbox_tray:
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Travelport-Ukraine/ddb-migration.svg)](https://greenkeeper.io/)
+
 This tool is create to for AWS DynamoDB(and not only) migration management. 
 
 ## How it works?
