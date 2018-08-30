@@ -14,6 +14,8 @@ export async function handler(args: MigrateCommandArgs) {
   spinner.start('Fetching list of migrations from DB');
   const migrationList = await register.list();
 
+  migrationList.reverse();
+
   if (!migrationList.length) {
     spinner.fail('No migrations left');
     process.exit(0);
