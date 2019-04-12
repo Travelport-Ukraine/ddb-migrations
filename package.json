@@ -37,7 +37,7 @@
     "dynamodb-local": "0.0.22",
     "husky": "^0.14.3",
     "mocha": "^5.2.0",
-    "prettier": "1.14.2",
+    "prettier": "1.17.0",
     "pretty-quick": "^1.6.0",
     "ts-node": "^7.0.0",
     "typescript": "^3.0.1"
