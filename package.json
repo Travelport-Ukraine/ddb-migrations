@@ -1,6 +1,6 @@
 {
   "name": "ddb-migrations",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "DynamoDB (and not only) migration manager",
   "bin": {
     "ddb-migrations": "./build/cli.js"
