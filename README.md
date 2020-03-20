@@ -1,3 +1,6 @@
+# Abandoned
+See https://github.com/Travelport-Ukraine/ddb-migrations/issues/13
+
 # AWS DDB Migration :outbox_tray: :inbox_tray:
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/Travelport-Ukraine/ddb-migration.svg)](https://greenkeeper.io/)
